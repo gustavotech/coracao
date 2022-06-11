@@ -6,35 +6,52 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>eu gosto do vc</title>
     <style>
-        .heart {
+        body{
             background-color: pink;
-            width: 30px;
-            height: 30px;
+        }
+        h1 {
+            text-align: center;
+        }
+
+        .conteiner{
+            padding: 100px;
+        }
+
+        .heart {
+            background-color: red;
+            width: 100px;
+            height: 100px;
             transform: rotate(45deg);
+            margin: auto;
         }
 
         .heart:before,
         .heart:after{
             content: "";
-            background-color: pink;
+            background-color: red;
             border-radius: 50%;
-            height: 30px;
+            height: 100px;
             position: absolute;
-            width: 30px;
+            width: 100px;
         }
 
         .heart:after {
-            top: -15px;
-            left: 0;
+            top: -50px;
+            left: 0px;
         }
 
         .heart:before {
             top: 0px;
-            left: -15px;
+            left: -50px;
         }
     </style>
 </head>
 <body>
-    <div class="heart"></div>
+    <h1>VOCÊ...</h1>
+    <div class="conteiner">
+        <div class="heart"></div>
+    </div>
+    <h1>...VOCÊ É ESPECIAL PARA MIM</h1>
+    
 </body>
 </html>
